@@ -1,0 +1,44 @@
+{
+  "status": "success",
+  "results": [
+    {
+      "status": "success",
+      "filename": "hero-liquid-glass-tech.jpg",
+      "url": "https://mgx-backend-cdn.metadl.com/generate/images/1395071/2026-07-02/rxcbczicaita/hero-liquid-glass-tech.png",
+      "path": "https://mgx-backend-cdn.metadl.com/generate/images/1395071/2026-07-02/rxcbczicaita/hero-liquid-glass-tech.png",
+      "absolute_path": "https://mgx-backend-cdn.metadl.com/generate/images/1395071/2026-07-02/rxcbczicaita/hero-liquid-glass-tech.png"
+    },
+    {
+      "status": "success",
+      "filename": "product-headphones-premium.jpg",
+      "url": "https://mgx-backend-cdn.metadl.com/generate/images/1395071/2026-07-02/rxcbdsycairq/product-headphones-premium.png",
+      "path": "https://mgx-backend-cdn.metadl.com/generate/images/1395071/2026-07-02/rxcbdsycairq/product-headphones-premium.png",
+      "absolute_path": "https://mgx-backend-cdn.metadl.com/generate/images/1395071/2026-07-02/rxcbdsycairq/product-headphones-premium.png"
+    },
+    {
+      "status": "success",
+      "filename": "product-smartwatch-titanium.jpg",
+      "url": "https://mgx-backend-cdn.metadl.com/generate/images/1395071/2026-07-02/rxcbebycaira/product-smartwatch-titanium.png",
+      "path": "https://mgx-backend-cdn.metadl.com/generate/images/1395071/2026-07-02/rxcbebycaira/product-smartwatch-titanium.png",
+      "absolute_path": "https://mgx-backend-cdn.metadl.com/generate/images/1395071/2026-07-02/rxcbebycaira/product-smartwatch-titanium.png"
+    },
+    {
+      "status": "success",
+      "filename": "product-vr-headset-glass.jpg",
+      "url": "https://mgx-backend-cdn.metadl.com/generate/images/1395071/2026-07-02/rxcbeoqcaisq/product-vr-headset-glass.png",
+      "path": "https://mgx-backend-cdn.metadl.com/generate/images/1395071/2026-07-02/rxcbeoqcaisq/product-vr-headset-glass.png",
+      "absolute_path": "https://mgx-backend-cdn.metadl.com/generate/images/1395071/2026-07-02/rxcbeoqcaisq/product-vr-headset-glass.png"
+    },
+    {
+      "status": "success",
+      "filename": "product-laptop-ultraslim.jpg",
+      "url": "https://mgx-backend-cdn.metadl.com/generate/images/1395071/2026-07-02/rxcbe5icaisa/product-laptop-ultraslim.png",
+      "path": "https://mgx-backend-cdn.metadl.com/generate/images/1395071/2026-07-02/rxcbe5icaisa/product-laptop-ultraslim.png",
+      "absolute_path": "https://mgx-backend-cdn.metadl.com/generate/images/1395071/2026-07-02/rxcbe5icaisa/product-laptop-ultraslim.png"
+    }
+  ],
+  "success_count": 5,
+  "failed_count": 0,
+  "running_count": 0,
+  "message": "Generated 5/5 images total"
+}
