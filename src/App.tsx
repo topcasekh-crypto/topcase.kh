@@ -1,7 +1,4 @@
-import { Toaster } from 'src/components/ui/sonner';
-import { TooltipProvider } from 'src/components/ui/tooltip';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-// ЗАМЕНИЛИ BrowserRouter на HashRouter вот здесь:
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Index from './pages/Index';
 import Catalog from './pages/Catalog';
@@ -19,12 +16,9 @@ const AppRoutes = () => (
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <HashRouter>
-        <AppRoutes />
-      </HashRouter>
-    </TooltipProvider>
+    <HashRouter>
+      <AppRoutes />
+    </HashRouter>
   </QueryClientProvider>
 );
 
