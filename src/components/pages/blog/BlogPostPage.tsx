@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { Navigate, useLocation } from 'react-router-dom';
-import BlogArticleLayout from '@/components/blog/BlogArticleLayout';
-import MarkdownArticle from '@/components/blog/MarkdownArticle';
+import BlogArticleLayout from 'src/components/blog/BlogArticleLayout';
+import MarkdownArticle from 'src/components/blog/MarkdownArticle';
 import { getBlogPost, getPostSeoMeta } from '@/lib/blog';
 
 function getSlugFromPathname(pathname: string) {

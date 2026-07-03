@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { fetchProducts, getCategories } from '@/lib/google-sheets';
-import Navbar from '@/components/Navbar';
-import ProductCard from '@/components/ProductCard';
-import Footer from '@/components/Footer';
+import Navbar from 'src/components/Navbar';
+import ProductCard from 'src/components/ProductCard';
+import Footer from 'src/components/Footer';
 import { Search } from 'lucide-react';
 
 export default function Catalog() {

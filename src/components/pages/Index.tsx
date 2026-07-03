@@ -1,9 +1,9 @@
 import { useQuery } from '@tanstack/react-query';
 import { fetchProducts } from '@/lib/google-sheets';
-import Navbar from '@/components/Navbar';
-import HeroSection from '@/components/HeroSection';
-import ProductCard from '@/components/ProductCard';
-import Footer from '@/components/Footer';
+import Navbar from 'src/components/Navbar';
+import HeroSection from 'src/components/HeroSection';
+import ProductCard from 'src/components/ProductCard';
+import Footer from 'src/components/Footer';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 

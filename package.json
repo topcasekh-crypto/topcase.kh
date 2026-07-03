@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint --quiet app/src",
+    "lint": "eslint --quiet src",
     "preview": "vite preview",
     "postinstall": "echo 'Dependencies installed successfully'"
   },

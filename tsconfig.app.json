@@ -29,6 +29,6 @@
     }
   },
   "include": [
-    "app/src"
+    "src"
   ]
 }

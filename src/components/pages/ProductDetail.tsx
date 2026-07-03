@@ -1,8 +1,8 @@
 import { useParams, Link } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
 import { fetchProducts } from '@/lib/google-sheets';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
+import Navbar from 'src/components/Navbar';
+import Footer from 'src/components/Footer';
 import { ArrowLeft, Package, Truck, Shield } from 'lucide-react';
 
 export default function ProductDetail() {

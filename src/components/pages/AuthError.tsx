@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { Button } from '@/components/ui/button';
+import { Button } from 'src/components/ui/button';
 import { AlertCircle } from 'lucide-react';
 
 export default function AuthErrorPage() {
