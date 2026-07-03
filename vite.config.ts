@@ -4,7 +4,6 @@ import fs from 'node:fs';
 import path from 'path';
 import { viteSourceLocator } from '@metagptx/vite-plugin-source-locator';
 import { atoms } from '@metagptx/web-sdk/plugins';
-import Sitemap from 'vite-plugin-sitemap';
 
 function escapeHtmlAttr(str: string): string {
   return str
@@ -49,11 +48,6 @@ export default defineConfig(({ command }) => {
       react(),
       atoms(),
       ensureBuildOutDir(),
-      Sitemap({
-        hostname: 'https://topcasekh-crypto.github.io/topcake.kh/',
-        readable: true,
-        generateRobotsTxt: true,
-      }),
     ],
     resolve: {
       alias: {
